@@ -1,0 +1,7 @@
+.unvis{
+    visibility: hidden;
+}
+.vis{
+    position: absolute;
+    visibility: visible;
+}

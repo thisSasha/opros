@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опрос еды</title>
+</head>
+<body>
+    <form target="submit" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd3SvGUpOzUUamavMI4aYiXfddDnacZDesBSh5AwZbv6iCltg/formResponse" method="post">
+        <label for="kol-vo">Сколько должно быть приемов пищи?</label>
+        <input min="1" max="20" type="number" name="entry.306802551" id="kol-vo" required>
+        <br>
+        <label for="breakfest">Каким должен быть завтрак?</label>
+        <br>
+        <ol>
+            <li><input type="text" name="entry.1801839883" id="breakfest" required></li>
+            <br>
+            <li><input type="text" name="entry.1314882463" id="breakfest" required></li>
+            <br>
+            <li><input type="text" name="entry.624350475" id="breakfest" required></li>   
+            </ol>
+        <br>
+        <label for="lunch">Каким должен быть обед?</label>
+        <br>
+        <ol>
+            <li><input type="text" name="entry.1474333055" id="lunch" required></li>
+            <br>
+            <li><input type="text" name="entry.1257497045" id="lunch" required></li>
+            <br>
+            <li><input type="text" name="entry.38081858" id="lunch" required></li>   
+            </ol>
+        <br>
+        <label for="dinner">Каким должен быть ужин?</label>
+        <br>
+        <ol>
+            <li><input type="text" name="entry.2058044941" id="dinner" required></li>
+            <br>
+            <li><input type="text" name="entry.633714328" id="dinner" required></li>
+            <br>
+            <li><input type="text" name="entry.2133166374" id="dinner" required></li>   
+            </ol>
+        <br>
+        <!--NExt-->
+        <hr>
+        <label for="name">Ваше имя:</label>
+        <br>
+        <input type="text" name="entry.1214467728" id="name">
+        <br>
+        <label for="kol-vo">Ваша почта:</label>
+        <br>
+        <input type="email" name="entry.2115108453" id="kol-vo" required>
+        <br>
+        <button type="submit">Отправить</button>
+        <script src="./script.js"></script>
+        <iframe name="submit" class="unvis"></iframe>
+    </form>
+</body>
+</html>
