@@ -5,3 +5,50 @@
     position: absolute;
     visibility: visible;
 }
+input   {
+    transition: 0.4s;
+    background-color: rgb(96, 24, 190);
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    width: 256px;
+    height: 20px;
+    display: block;
+}
+input[type='number']   {
+    width: 36px;
+    border-radius: 8px;
+}
+input:hover{
+    background-color: rgb(77, 24, 148);
+    transition: 0.4s;
+}
+input:focus{
+    transition: 2s;
+    background-color: rgb(50, 20, 168);
+}
+body    {
+    background-color: black;
+    color: white;
+    box-sizing: content-box;
+}
+ol li{
+    font-size: 20px;
+}
+label{
+    font-size: 22px;
+    text-shadow: 2px 2px rgb(96, 24, 190);
+}
+button{
+    width: 256px;
+    border: none;
+    border-radius: 16px;
+    height: 24px;
+    padding: 2px 0px 2px 0px;
+    background-color: rgb(96, 24, 190);
+    color: white;
+    transition: 0.7S;
+}
+button:hover{
+    background-color: rgb(66, 0, 141);
+}
